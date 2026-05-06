@@ -20,7 +20,7 @@ public class Login_Page {
 	driver.findElement(By.xpath("/html/body/div/div[2]/div[2]/div[2]/div[2]/button[1]/p")).click();
 	
 	WebElement email = driver.findElement(By.name("email"));
-    email.sendKeys("rinku23@gmail.com");
+    email.sendKeys("rinkumarathe23@gmail.com");
 
   
     WebElement password = driver.findElement(By.name("password"));
